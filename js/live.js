@@ -47,7 +47,7 @@ paragraph[i].onmouseout = function() {
 let search = document.getElementById('search');
 search.onclick = function() {
     let searchInput = document.getElementById('search-input');
-    searchInput.classList.toggle("search-click");
+    searchInput.classList.toggle('search-click');
 }
 let button = document.getElementById('button');
 button.onclick = function() {
