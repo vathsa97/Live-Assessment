@@ -190,6 +190,7 @@ body p{
   font-size: 89%;
   font-weight: 800;
   color: #d0753c;
+  margin: 0 .5em
 }
 .assessment {
   font-family: sans-serif;
@@ -385,6 +386,7 @@ right:-29%;
 }
 .cata-link.nav-change{
   background-color: #FFFFFF;
+  border-radius: 1em;
 }
 .cata-link.assess-link{
   padding: 13px ;
@@ -589,13 +591,14 @@ right:-29%;
 #search-input{
   width: 0em;
   border:0;
-  transition: width 1s;
+  transition: width 750ms;
 }
 .search-click{
   width: 12em ;
 }
 #search-input.search-click{
   width: 12em ;
+  padding: 5px
 }
 .show-container{
   display: none;
